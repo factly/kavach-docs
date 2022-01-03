@@ -1,12 +1,11 @@
 # Introduction
 
 ## What is Kavach?
-Kavach is an open source identity platform that natively manages security for an ecosystem of applications with the help of [Ory Stack](https://www.ory.sh/). It is written in Go and React. 
-### Features
-- **Multitenancy:** Each application should be used by different organisation on the same instance.
-- **User Management:** Each organisation admin can invite as well as remove users from the organisation.
-- **Application Management:** Each organisation can extend their own applications in kavach.
-- **Profile Management:** Users can add their personal details, email addresses and link their social profiles (Google, Facebook, GitHub, etc.) using secure flows.
-- **Multi Factor Authentication:** Supports protocols such as TOTP with apps like Google Authenticator, LastPass, Bitwarden, etc.
-- **Docker and Kubernetes support:** Dockerised and deployde on kubernetes.
-- **Zero Trust Security:** It supports and implements Zero trust security
+ Kavach is an open-source identity and access management solution. It is a lightweight solution with features to manage organizations, users, permissions and can be configured easily to support applications requiring multitenancy. Kavach is written in Go, React and is built on [Ory Stack](https://www.ory.sh/) of services. 
+
+ ## Who can use Kavach? 
+ Kavach can be used to secure an ecosystem of application as well as helps in organisation management. Hence, It can be used by organisations scaling from few members to thousands of members. Kavach supports features like Multitenancy, Zero Trust Security and manages organisations, profiles and applications.
+
+ ## How does Kavach benefit organisations?
+ Users can create multiple organisations in Kavach which can help them in implementing the organisation hierarchy in Kavach. The roles in Kavach can restrict users from some activities and give privileges to some other users. For Example: In dega, kavach helps in creating policies which helps in managing what user can access and update.
+

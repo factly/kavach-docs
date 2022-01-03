@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Open Source Identity Platform',
-  tagline: 'It is an identity platform built on Ory stack which natively manages security for multiple applications within the organization. Written in Go and React. ',
+  title: 'Kavach',
+  tagline: 'Open Source Identity Platform',
   url: 'https://kavach.factly.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -55,6 +55,11 @@ const config = {
           {
             href: 'https://github.com/factly/kavach',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'http://slack.factly.org',
+            label: 'Slack',
             position: 'right',
           },
         ],
@@ -149,6 +154,9 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    customFields: {
+      hero: 'It is an identity platform built on Ory stack which natively manages security for multiple applications within the organisation. Written in Go and React.',
+    },
 };
 
 module.exports = config;
